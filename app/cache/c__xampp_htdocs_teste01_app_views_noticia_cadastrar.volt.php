@@ -167,7 +167,7 @@
 
 
         <script src="<?= $this->url->getStatic('js/bootstrap-datetimepicker.min.js') ?>"></script>
-
+        <script src="<?= $this->url->getStatic('js/angular.min.js') ?>"></script>
         <script>
             $(document).ready(function(){
                 $("span.fechar").click(function(){

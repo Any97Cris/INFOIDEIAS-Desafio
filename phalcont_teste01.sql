@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 13-Jan-2022 às 13:34
+-- Generation Time: 13-Jan-2022 às 15:48
 -- Versão do servidor: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -65,15 +65,10 @@ CREATE TABLE `noticia` (
 --
 
 INSERT INTO `noticia` (`id`, `titulo`, `texto`, `data_ultima_atualizacao`, `data_cadastro`, `categoria_id`, `publicado`, `data_publicacao`) VALUES
-(32, 'Ginastica Artística', 'Apresentação Inédita', '2022-01-12 22:18:05', '2022-01-12 22:05:03', 2, NULL, NULL),
-(33, 'Homem Aranha Sutado', 'Em breve', '2022-01-12 22:05:54', '2022-01-12 22:05:54', 4, NULL, NULL),
-(34, 'Doutor Estranho', 'asdfghj', '2022-01-12 23:41:06', '2022-01-12 22:58:45', 4, 1, '2022-01-29'),
-(35, 'Teste', '', '2022-01-12 23:10:34', '2022-01-12 23:10:34', 1, 1, '0000-00-00'),
-(36, 'Teste10', '', '2022-01-12 23:11:04', '2022-01-12 23:11:04', 1, 0, '0000-00-00'),
-(37, 'Teste11', '', '2022-01-12 23:12:12', '2022-01-12 23:12:12', 1, 1, NULL),
-(38, 'Teste12', 'ghjklçpoi', '2022-01-12 23:14:44', '2022-01-12 23:14:44', 1, 1, '2022-01-13'),
-(39, 'Teste30', 'ghnbbgtt', '2022-01-12 23:44:37', '2022-01-12 23:44:37', 1, 0, '0000-00-00'),
-(40, 'Teste31', 'tbvfd', '2022-01-12 23:45:21', '2022-01-12 23:44:58', 1, 0, '2022-01-14');
+(41, 'Olimpíadas 2022', 'Evento que reuniu atletas de várias partes do mundo.', '2022-01-13 10:57:38', '2022-01-13 10:52:24', 1, 1, '2022-01-14'),
+(42, 'Taylor Swift explode com regravação da música All Too Well', 'All too well apareceu em várias plataformas de streaming, sucesso total.', '2022-01-13 10:54:24', '2022-01-13 10:54:24', 3, 1, '2022-01-12'),
+(43, 'Homem Aranha', 'O filme homem aranha ganha novamente a graça de várias pessoas.', '2022-01-13 10:55:38', '2022-01-13 10:55:38', 4, 0, '0000-00-00'),
+(44, 'Voltron ganha nova temporada', 'O anime que encantou a muitos na década de 90, volta com nova temporada e com promessa de ser melhor. ', '2022-01-13 10:57:20', '2022-01-13 10:57:20', 2, 0, '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -131,7 +126,7 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT for table `noticia`
 --
 ALTER TABLE `noticia`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- AUTO_INCREMENT for table `usuario`
